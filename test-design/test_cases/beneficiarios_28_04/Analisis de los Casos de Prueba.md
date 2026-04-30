@@ -1,3 +1,5 @@
+Aclaración: el trabajo lo realice junto a Giuliano Bianchini
+
 En base a los casos de prueba que la IA realizó, pude detectar algunas cosas que me llamaron la atención:
 
 - El total de ambigüedades que detecto fue de 15, pero no me realizo un caso de prueba para todas ellas.
@@ -6,3 +8,5 @@ En base a los casos de prueba que la IA realizó, pude detectar algunas cosas qu
 - Otro detalle es que en varios casos de uso, un paso es del estilo "observar el resultado" y en mi opinión, eso no debería ser un paso, tal vez debería ir en el apartado de expected o directamente que no exista.
 - También noto que hay muchos casos de uso, donde la descripción del expected debería ser mas sencilla de lo que devuelve la IA.
 - Finalmente, tal vez dentro de algunos casos de uso, se podrían hacer otras validaciones como que pasa si se ingresa un DNI que es inválido, etc.
+
+
